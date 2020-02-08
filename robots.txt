@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 
-Sitemap: https://cincyfcm.org/sitemap.xml
+Sitemap: https://www.cincyfcm.org/sitemap.xml
