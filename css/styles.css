@@ -41,15 +41,6 @@ table {
 	border-spacing: 0;
 }
 /**********************************************/
-strong {
-	font-weight: 700;
-}
-em {
-	font-style: italic;
-}
-ul {
-	margin-left: 2rem;
-}
 html {
   font-size: 62.5%;
 }
@@ -96,9 +87,16 @@ a:active, a:focus, a:hover {
     border-bottom: 2px solid #a41a1a;
 }
 
-.alignright {
-  float: right;
-  margin: 0 0 0.5em 1em;
+strong, b {
+	font-weight: 700;
+}
+
+em, i {
+	font-style: italic;
+}
+
+ul, ol {
+	margin-left: 2rem;
 }
 
 .alignleft {
@@ -106,10 +104,22 @@ a:active, a:focus, a:hover {
   margin: 0 1em 0.5em 0;
 }
 
+.alignright {
+  float: right;
+  margin: 0 0 0.5em 1em;
+}
+
+.aligncenter {
+  margin: auto;
+}
+
+/****************
+ Header Styles
+*****************/
 header {
   background-color: #fff;
   margin-bottom: 1.5rem;
-  padding: 2.5rem 8.334%;
+  padding: 2.5rem 8.334% 1.5rem;
 }
 
 #site-title a {
@@ -127,10 +137,106 @@ header {
 }
 
 .tagline {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin: 0;
 }
 
+/***********
+ Menu Styles
+************/
+nav.horizontal {
+	font-size: 1.2rem;
+	letter-spacing: 0.07rem;
+	margin: 1rem 0;
+	text-transform: uppercase;
+}
+
+nav.horizontal li {
+	display: inline-block;
+	margin: 0 1rem;
+	position: relative;
+}
+
+nav.horizontal>li:first-child {
+	margin: 0 1rem 0 0;
+}
+
+nav.horizontal a {
+	border-bottom-color: #fff;
+	box-sizing: border-box;
+}
+
+nav.horizontal a:active,
+nav.horizontal a:focus,
+nav.horizontal a:hover,
+nav.horizontal .current>a {
+    border-bottom: 1px solid #a41a1a;
+}
+
+nav.horizontal .children>a::before {
+	content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 16px;
+  height: 48px;
+}
+
+nav.horizontal .children>a::after {
+	content: " +";
+	border-bottom: 1px solid #fff;
+	box-sizing: border-box;
+}
+nav.horizontal ul ul {
+	display: none;
+	position: absolute;
+	background: #fff;
+	padding: 0.5rem;
+	top: calc(100% + 13px);
+	left: calc(-50% - 3rem);
+	outline:1px #888;
+	white-space: nowrap;
+	text-align:center;
+	border: 1px solid #d4d4d4;
+}
+
+nav.horizontal ul ul::before {
+	content: "";
+	position: absolute;
+	top: -13px;
+	left: 50%;
+	left: calc(50% - 13px);
+	border-bottom: solid 13px #d4d4d4;
+	border-left: solid 13px transparent;
+	border-right: solid 13px transparent;
+}
+
+nav.horizontal ul ul::after {
+	content: "";
+	position: absolute;
+	top: -12px;
+	left: 50%;
+	left: calc(50% - 12px);
+	border-bottom: solid 12px #fff;
+	border-left: solid 12px transparent;
+	border-right: solid 12px transparent;
+}
+
+nav.horizontal ul>li:hover ul,
+nav.horizontal ul>li:focus-within ul,
+nav.horizontal ul li ul:hover {
+	display: block;
+}
+
+nav.horizontal ul ul li {
+	display:block;
+	margin: 0;
+	padding: 1rem 2rem;
+}
+
+/*********************
+  Main Content Styles
+*********************/
 #main {
   padding: 0 2rem;
   margin: 6rem 0;
@@ -153,6 +259,9 @@ article {
   width: 100%;
 }
 
+/*********************
+ Footer Styles
+*********************/
 footer {
   background: #fff;
   font-size: 1.2rem;

@@ -1,8 +1,9 @@
 ---
 title: Members
 description: The membership Greater Cincinnati chapter of the Fellowship of Christian Magicians includes everything from hobbyists to full-time professionals.
-featuredImage: /img/fcm-meeting.jpg
-featuredImageDesc: FCM Meeting
+featured:
+  image: /img/fcm-meeting.jpg
+  alt: FCM Meeting
 eleventyNavigation:
   key: Members
   order: 10
