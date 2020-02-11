@@ -3,6 +3,7 @@ title: Brad Brown
 description: Brad Brown is an internationally known Christian magician. He combines his side-splitting comedy and mind-blowing magic to engage and entertain audiences while clearly presenting gospel truth.
 featuredImage: /img/brad-brown-jacket.jpg
 featuredImageDesc: Brad Brown
+tags: member
 layout: base.njk
 ---
 
