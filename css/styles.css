@@ -53,6 +53,9 @@ body {
   line-height: 1.6;
   margin: 0;
 	padding: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 h1 {
@@ -295,6 +298,7 @@ nav a:hover {
 #main {
   margin: 6rem 0;
 	padding: 0 1rem;
+	flex: 1;
 }
 
 article {
@@ -450,7 +454,7 @@ footer {
 	nav ul li ul:hover {
 		display: block;
 	}
-	
+
 	nav ul>li:focus-within ul {
 		display: block;
 	}
