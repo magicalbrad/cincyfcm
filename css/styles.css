@@ -41,6 +41,15 @@ table {
 	border-spacing: 0;
 }
 /**********************************************/
+strong {
+	font-weight: 700;
+}
+em {
+	font-style: italic;
+}
+ul {
+	margin-left: 2rem;
+}
 html {
   font-size: 62.5%;
 }
