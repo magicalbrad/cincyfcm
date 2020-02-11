@@ -6,4 +6,4 @@ layout: base.njk
 
 Looks like you’ve followed a broken link or entered a URL that doesn’t exist on this site.
 
-<div class="wp-block-button aligncenter"><a class="wp-block-button__link" href="/">Go To Homepage</a></div>
+<div class="block-button aligncenter"><a href="/">Go To Homepage</a></div>

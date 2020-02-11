@@ -10,18 +10,40 @@
     <link rel="apple-touch-icon-precomposed" href="/img/cropped-fcm-logo-180x180.png">
     <meta name="msapplication-TileImage" content="/img/cropped-fcm-logo-270x270.png">
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/css/solid.min.css">
+    <link rel="stylesheet" href="/css/brands.min.css">
   </head>
   <body>
     <header>
       <div id="site-title" class="site-title"><a href="/">Greater Cincinnati Fellowship of Christian Magicians</a></div>
       <p class="tagline">Sharing the love of Jesus through magic and other variety arts</p>
+      <label id="menuicon" for="menutoggle">
+				<span class="screen-reader-text">open menu</span>
+				<i class="fas fa-bars" title="primary menu icon" aria-hidden="true"></i>
+			</label>
+      <input type="checkbox" id="menutoggle">
       <nav class="horizontal">
         {{ collections.all | eleventyNavigation | eleventyNavigationToHtml({
           listItemHasChildrenClass: "children",
           activeListItemClass: "current",
           activeKey: eleventyNavigation.key
         }) | safe }}
-      </nav>
+        <ul class="social-media-icons">
+          <li>
+  					<a class="facebook" target="_blank" href="https://www.facebook.com/cincyfcm/">
+  						<i class="fab fa-facebook-square" title="facebook"></i>
+  						<span class="screen-reader-text">facebook</span>
+  					</a>
+  				</li>
+  				<li>
+  					<a class="email" target="_blank" href="mailto:brad@bradbrownmagic.com">
+  						<i class="fas fa-envelope" title="email"></i>
+  						<span class="screen-reader-text">email</span>
+  					</a>
+  				</li>
+  			</ul>
+    </nav>
     </header>
     <section  id="main">
       <article>
