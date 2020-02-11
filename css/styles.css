@@ -447,8 +447,11 @@ footer {
 	}
 
 	nav ul>li:hover ul,
-	nav ul>li:focus-within ul,
 	nav ul li ul:hover {
+		display: block;
+	}
+	
+	nav ul>li:focus-within ul {
 		display: block;
 	}
 
