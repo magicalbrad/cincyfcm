@@ -1,0 +1,22 @@
+{
+  "name": "cincyfcm",
+  "version": "1.0.0",
+  "description": "Cincy FCM Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicalbrad/cincyfcm.git"
+  },
+  "author": "Brad Brown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magicalbrad/cincyfcm/issues"
+  },
+  "homepage": "https://github.com/magicalbrad/cincyfcm#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
+}
