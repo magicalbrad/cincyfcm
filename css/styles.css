@@ -156,6 +156,7 @@ header {
 .tagline {
   font-size: 1.2rem;
 	margin: 0 8.334%;
+	max-width: 70%;
 	padding-bottom: 1.5rem;
 }
 
@@ -234,7 +235,7 @@ input[type=submit]:hover {
 
 nav {
 	display: none;
-	border-top: 1px solid #ccc;
+	border-top: 1px solid #d4d4d4;
 	margin-top: 3rem;
 	font-size: 1.2rem;
 	letter-spacing: 0.07rem;
@@ -248,7 +249,7 @@ nav ul {
 }
 
 nav li {
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #d4d4d4;
 	margin: 0;
   padding: 1rem 8.334%;
 }
@@ -288,7 +289,7 @@ nav a:hover {
 *********************/
 #main {
   margin: 6rem 0;
-	padding: 0 2rem;
+	padding: 0 1rem;
 }
 
 article {
@@ -301,7 +302,7 @@ article {
 
 .content {
   font-size: 1.6rem;
-  margin: 3rem 6rem;
+  margin: 3rem 8.334%;
 }
 
 .featured {
@@ -395,7 +396,6 @@ footer {
 		border: 1px solid #d4d4d4;
 		display: none;
 		left: calc(-50% - 1rem);
-		outline:1px #888;
 		padding: 0.5rem;
 		position: absolute;
 		text-align:center;
@@ -440,6 +440,10 @@ footer {
 			position: absolute;
 			top: 2rem;
 			right: 8.334%;
+	}
+
+	nav .social-media-icons a {
+		border: none;
 	}
 
 }
