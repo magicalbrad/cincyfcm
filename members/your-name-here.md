@@ -4,6 +4,10 @@ description: If you’re a member of the Greater Cincinnati FCM, and would like 
 featuredImage: /img/fcm-logo-wide.jpg
 featuredImageDesc: FCM Logo
 layout: base.njk
+eleventyNavigation:
+  key: Your Name Here
+  parent: Members
+  order: 99
 ---
 
 If you’re a member of the Greater Cincinnati FCM, and would like to be listed here, [just let us know](/contact/).

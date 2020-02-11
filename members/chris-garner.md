@@ -3,6 +3,10 @@ title: Chris Garner
 description: Chris and his wife Janet provide family entertainment with magic and balloon sculpting for dinner programs, picnics and birthday parties.
 tags: member
 layout: base.njk
+eleventyNavigation:
+  key: Garner
+  title: Chris Garner
+  parent: Members
 ---
 
 Chris and his wife Janet provide family entertainment with magic and balloon sculpting for dinner programs, picnics and birthday parties.

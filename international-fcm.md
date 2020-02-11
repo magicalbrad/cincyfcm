@@ -2,6 +2,9 @@
 title: International FCM
 description: The Fellowship of Christian Magicians is an international organization dedicated to using magic and other visual arts to present the gospel.
 layout: base.njk
+eleventyNavigation:
+  key: International Fcm
+  order: 20
 ---
 
 <img src="/img/intl-fcm.jpg" class="alignright" alt="International Fellowship of Christian Magicians">

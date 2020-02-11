@@ -15,6 +15,7 @@
     <header>
       <div id="site-title" class="site-title"><a href="/">Greater Cincinnati Fellowship of Christian Magicians</a></div>
       <p class="tagline">Sharing the love of Jesus through magic and other variety arts</p>
+      {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
     </header>
     <section  id="main">
       <article>

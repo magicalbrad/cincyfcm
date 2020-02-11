@@ -4,6 +4,9 @@ description: The Greater Cincinnati Fellowship of Christian Magicians shares the
 featuredImage: /img/fcm-logo-wide.jpg
 featuredImageDesc: FCM Logo
 layout: base.njk
+eleventyNavigation:
+  key: Home
+  order: 0
 ---
 
 ## Who are we?
