@@ -1,7 +1,6 @@
 ---
 title: Contact
 description: The Fellowship of Christian Magicians is an international organization dedicated to using magic and other visual arts to present the gospel.
-layout: base.njk
 eleventyNavigation:
   key: Contact
   order: 40

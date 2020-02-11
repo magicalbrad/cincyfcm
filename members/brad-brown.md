@@ -4,7 +4,6 @@ description: Brad Brown is an internationally known Christian magician. He combi
 featuredImage: /img/brad-brown-jacket.jpg
 featuredImageDesc: Brad Brown
 tags: member
-layout: base.njk
 eleventyNavigation:
   key: Brown Brad
   title: Brad Brown

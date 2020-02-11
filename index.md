@@ -3,7 +3,6 @@ title: Greater Cincinnati Fellowship of Christian Magicians
 description: The Greater Cincinnati Fellowship of Christian Magicians shares the gospel and helps others develop their talent using sleight of hand and other arts.
 featuredImage: /img/fcm-logo-wide.jpg
 featuredImageDesc: FCM Logo
-layout: base.njk
 eleventyNavigation:
   key: Home
   order: 0

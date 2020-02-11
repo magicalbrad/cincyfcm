@@ -1,7 +1,6 @@
 ---
 title: Christians and Magic
 description: Doesn't the Bible forbid magic, fortune-telling and ventriloquism? Is it right for a Christian to be involved in sleight of hand and illusion?
-layout: base.njk
 eleventyNavigation:
   key: Christians and Magic
   order: 30
