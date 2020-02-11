@@ -4,9 +4,7 @@ description: The Fellowship of Christian Magicians is an international organizat
 layout: base.njk
 ---
 
-# International FCM
-
-<img src="/images/clown.jpg" class="alignright" alt="Clown talking on the phone">
+<img src="/img/clown-phone.jpg" class="alignright" alt="Clown talking on the phone" style="width:40%">
 
 For information about local meetings and events, contact Brad Brown:
 

@@ -5,12 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
     {% if description %}<meta name="description" content="{{ description }}">{% endif %}
+    <link rel="stylesheet" href="/css/styles.css">
   </head>
   <body>
-
-    <div class="container">
-      {{ content | safe }}
-    </div>
-
+    <header>
+      <div id="site-title" class="site-title"><a href="/">Greater Cincinnati Fellowship of Christian Magicians</a></div>
+      <p class="tagline">Sharing the love of Jesus through magic and other variety arts</p>
+    </header>
+    <section  id="main">
+      <article>
+        {% if featuredImage %}<img class="featured" src="{{ featuredImage }}"{% if featuredImageDesc %} alt="{{ featuredImageDesc }}"{% endif %}>{% endif %}
+        <div class="content">
+          <h1>{{ title }}</h1>
+          {{ content | safe }}
+        </div>
+      <article>
+    </section>
+    <footer>
+      <p>&copy; 2020 Greater Cincinnati Fellowship of Christian Magicians</p>
+    </footer>
   </body>
 </html>

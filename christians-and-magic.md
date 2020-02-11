@@ -4,8 +4,6 @@ description: Doesn't the Bible forbid magic, fortune-telling and ventriloquism? 
 layout: base.njk
 ---
 
-# Christians and Magic
-
 Doesn't the Bible forbid magic, fortune-telling and ventriloquism? Is it right for a Christian to be involved in sleight of hand and illusion–aren't these instruments dishonest and deceptive?
 
 ## A Problem of Vocabulary
