@@ -9,4 +9,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("webfonts/*.woff2");
 
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
+
+  eleventyConfig.addFilter("formatDate", function(input) {
+    let yyyy = input.getFullYear();
+    let mm = input.getMonth() + 1;
+    let dd = input.getDate();
+    return `${yyyy}-${mm.toString().padStart(2, "0")}-${dd.toString().padStart(2, "0")}`
+  });
 };
