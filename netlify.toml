@@ -6,8 +6,3 @@
   from = "/*"
   to = "/page-not-found/"
   status = 404
-
-[[headers]]
-  for = "/*.xml"
-  [headers.values]
-    Content-Type = "application/xml"
