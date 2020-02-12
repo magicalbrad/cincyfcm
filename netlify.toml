@@ -10,4 +10,4 @@
 [[headers]]
   for = "/*.xml"
   [headers.values]
-    Content-Type = "application/xml; charset=UTF-8"
+    Content-Type = "application/xml"
