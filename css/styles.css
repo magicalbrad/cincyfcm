@@ -271,6 +271,10 @@ nav a:hover {
 	border: none;
 }
 
+nav .children>.childicon {
+	display: none;
+}
+
 .social-media-icons {
 		font-size: 2.4rem;
 		list-style: none;
@@ -415,6 +419,7 @@ footer {
 	}
 
 	nav .children>.childicon {
+		display: inline-block;
 		padding: 1rem;
 	}
 
@@ -422,7 +427,7 @@ footer {
 		background: #fff;
 		border: 1px solid #d4d4d4;
 		display: none;
-		left: calc(-50% - 1rem);
+		left: -50%;
 		padding: 0.5rem;
 		position: absolute;
 		text-align:center;
