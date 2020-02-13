@@ -371,7 +371,7 @@ footer {
 	nav {
 		border: none;
 		display: block;
-		margin: 1rem 8.334%;
+		margin: 0 8.334%;
 		padding: 0 0 1.5rem 0;
 	}
 
@@ -384,6 +384,7 @@ footer {
 	nav a {
 		border-bottom-color: #fff;
 		box-sizing: border-box;
+		padding: 1rem 0;
 	}
 
 	nav a:active,
@@ -422,6 +423,7 @@ footer {
 		font-style: normal;
 		font-variant: normal;
 		margin-left: 5px;
+		padding: 1rem;
 		text-rendering: auto;
 	}
 
