@@ -414,17 +414,8 @@ footer {
 	  top: 16px;
 	}
 
-	nav .children::after {
-		content: "\f078";
-		display: inline-block;
-		font-family: "Font Awesome 5 Free";
-		font-weight: 900;
-		-webkit-font-smoothing: antialiased;
-		font-style: normal;
-		font-variant: normal;
-		margin-left: 5px;
+	nav .children>.childicon {
 		padding: 1rem;
-		text-rendering: auto;
 	}
 
 	nav ul ul {

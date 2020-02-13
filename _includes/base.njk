@@ -24,11 +24,21 @@
 			</label>
       <input type="checkbox" id="menutoggle">
       <nav>
-        {{ collections.all | eleventyNavigation | eleventyNavigationToHtml({
-          listItemHasChildrenClass: "children",
-          activeListItemClass: "current",
-          activeKey: eleventyNavigation.key
-        }) | safe }}
+        {%- set navPages = collections.all | eleventyNavigation -%}
+        {%- macro renderNavListItem(entry) -%}
+        <li class="{% if entry.url == page.url %}current{% endif %} {% if entry.children.length %}children{% endif %}">
+          <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+        {%- if entry.children.length -%}
+          <i class="fas fa-chevron-down childicon" tabindex="-1"></i>
+          <ul>
+            {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
+          </ul>
+        {%- endif -%}
+        </li>
+        {%- endmacro -%}
+        <ul>
+        {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+        </ul>
         <ul class="social-media-icons">
           <li>
   					<a class="facebook" target="_blank" href="https://www.facebook.com/cincyfcm/">
