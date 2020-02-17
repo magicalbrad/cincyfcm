@@ -1,10 +1,9 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("img");
-  eleventyConfig.addPassthroughCopy("css");
-  eleventyConfig.addPassthroughCopy("robots.txt");
-  eleventyConfig.addPassthroughCopy("webfonts/*.*");
+  eleventyConfig.addPassthroughCopy("source/css");
+  eleventyConfig.addPassthroughCopy("source/img");
+  eleventyConfig.addPassthroughCopy("source/webfonts/");
 
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
@@ -14,4 +13,10 @@ module.exports = function(eleventyConfig) {
     let dd = input.getDate().toString().padStart(2, "0");
     return `${yyyy}-${mm}-${dd}`
   });
+  
+  return {
+    dir: {
+      input: "source"
+    }
+  };
 };
