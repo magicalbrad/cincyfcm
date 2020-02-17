@@ -9,7 +9,7 @@ If you're an active member, you can have a page on the site. The pages are locat
     description: Description to appear when the page appears in Google or other serch engine (Optional)
     
     featured: (Optional)
-      image: /img/inage-file-name.jpg (Featured image at top of your page. Image must be in source/img directory.)
+      image: /img/image-file-name.jpg (Featured image at top of your page. Image must be in source/img directory.)
       alt: Alt text (Description of your image. Used by screen readers.)
     
     tags: member (Must be set to "member" to appear on the member page.
