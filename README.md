@@ -1,7 +1,5 @@
 # Cincy FCM Website
 This is the source for the Greater Cincinnati Fellowship of Christian Magicians website.
-The website is hosted using Netlify. Any changes committed to the master brach here are 
-automatically deployed to the live site: https://www.cincyfcm.org
 
 ## Member Pages
 If you're an active member, you can have a page on the site. The pages are located in the source/members/ directory. The files should be named your-name.md. The front matter data appearing at the top of the file controls various aspects of the page, such as how it appears in the site menu and what is displayed when the page appers in Google. The details are described below. The text following the front matter is the contents of the page, and is in [Markdown format](https://www.markdownguide.org/cheat-sheet/).
@@ -23,3 +21,6 @@ If you're an active member, you can have a page on the site. The pages are locat
 
 If you're technically inclined, you can do a pull request to add or change your page. Otherwise,
 just contact me with the requested changes and I'll take care of it.
+
+## Technical Details
+This is a simple website generated using [Eleventy](https://www.11ty.dev/) and hosted by [Netlify](https://www.netlify.com/). Any changes committed to the master brach here are automatically deployed to the live site: <https://www.cincyfcm.org>.
