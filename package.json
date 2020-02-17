@@ -18,9 +18,8 @@
   "homepage": "https://github.com/magicalbrad/cincyfcm#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
-    "@11ty/eleventy-navigation": "^0.1.4"
-  },
-  "dependencies": {
+    "@11ty/eleventy-navigation": "^0.1.4",
     "html-minifier": "^4.0.0"
-  }
+  },
+  "dependencies": {}
 }
