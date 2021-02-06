@@ -21,11 +21,11 @@ Each month, we get together to pray, laugh, share ideas, and try out new routine
 
 ## When do we meet?
 
-The Greater Cincinnati Fellowship of Christian Magicians meets the 2nd Tuesday of each month at 7PM. Meetings are held at the [Haines House of Cards](http://hainesmagicshop.com/).
+The Greater Cincinnati Fellowship of Christian Magicians meets the 2nd Tuesday of each month at 7:15 PM. Meetings are held at the [Cameron Avenue Church of God](https://www.cameronavenuecog.org/).
 
-2514 Leslie Ave
-Cincinnati, OH 45212
-[Map and Directions](https://www.google.com/maps/place/Haines+House+of+Cards+Inc/@39.1564531,-84.4494936,17z/data=!3m1!4b1!4m5!3m4!1s0x8841b2853e519809:0x7eab092e40b4bd3a!8m2!3d39.1564531!4d-84.4473049">)
+2156 Cameron Ave
+Norwood, OH 45212
+[Map and Directions](https://www.google.com/maps/dir/38.9933135,-84.6189681/2156+Cameron+Ave,+Cincinnati,+OH+45212/@39.063378,-84.6134698,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x8841b28cef5389fd:0xc9df1035b768a0ec!2m2!1d-84.4576094!2d39.1546998)
 
 [Contact us](/contact/) for more information.
 
