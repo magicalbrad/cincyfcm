@@ -25,7 +25,7 @@ The Greater Cincinnati Fellowship of Christian Magicians meets the 2nd Tuesday o
 
 2156 Cameron Ave
 Norwood, OH 45212
-[Map and Directions](https://www.google.com/maps/dir/38.9933135,-84.6189681/2156+Cameron+Ave,+Cincinnati,+OH+45212/@39.063378,-84.6134698,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x8841b28cef5389fd:0xc9df1035b768a0ec!2m2!1d-84.4576094!2d39.1546998)
+[Map and Directions](https://goo.gl/maps/VdiD4eqTuyzGDdXD9)
 
 [Contact us](/contact/) for more information.
 
