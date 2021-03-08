@@ -21,7 +21,7 @@ Each month, we get together to pray, laugh, share ideas, and try out new routine
 
 ## When do we meet?
 
-The Greater Cincinnati Fellowship of Christian Magicians meets the 2nd Tuesday of each month at 7:15 PM. Meetings are held at the [Cameron Avenue Church of God](https://www.cameronavenuecog.org/).
+The Greater Cincinnati Fellowship of Christian Magicians meets the 2nd Tuesday of each month at 7 PM. Meetings are held at the [Cameron Avenue Church of God](https://www.cameronavenuecog.org/).
 
 2156 Cameron Ave  
 Norwood, OH 45212  
