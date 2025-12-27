@@ -21,6 +21,9 @@ Each month, we get together to pray, laugh, share ideas, and try out new routine
 
 ## When do we meet?
 
+The Cincinnati FCM chapter is not currently holding regular meetings.
+
+<!--
 The Greater Cincinnati Fellowship of Christian Magicians meets the 2nd Tuesday of each month at 7 PM. Meetings are held at the [Cameron Avenue Church of God](https://www.cameronavenuecog.org/).
 
 2156 Cameron Ave  
@@ -28,7 +31,7 @@ Norwood, OH 45212
 [Map and Directions](https://goo.gl/maps/VdiD4eqTuyzGDdXD9)
 
 [Contact us](/contact/) for more information.
-
+-->
 ## Sign up for meeting notification emails
 
 <div id="mc_embed_signup">
